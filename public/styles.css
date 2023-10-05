@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.task-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#task-list-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+ul#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul#task-list li {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Priority-based styling */
+.high {
+    background-color: #ff6666; /* Red for high priority */
+}
+
+.medium {
+    background-color: #ffcc66; /* Yellow for medium priority */
+}
+
+.low {
+    background-color: #66ff66; /* Green for low priority */
+}
+
+/* Legend for priority colors */
+.legend {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.high-legend {
+    color: #ff6666;
+}
+
+.medium-legend {
+    color: #ffcc66;
+}
+
+.low-legend {
+    color: #66ff66;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+#clock {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+

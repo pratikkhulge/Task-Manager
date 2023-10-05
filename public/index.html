@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <header>
+        <h1>Task Manager</h1>
+        <div id="clock"></div>
+    </header>
+    <main>
+        <div class="task-form">
+            <input type="text" id="task" placeholder="Enter a task">
+            <select id="priority">
+                <option value="high">High Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="low">Low Priority</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <div id="task-list-container">
+            <ul id="task-list"></ul>
+            <div id="task-count"></div>
+        </div>
+        <!-- Legend for priority colors -->
+        <div class="legend">
+            <span class="high-legend">High Priority:</span> Red &nbsp;
+            <span class="medium-legend">Medium Priority:</span> Yellow &nbsp;
+            <span class="low-legend">Low Priority:</span> Green
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Task Manager App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
